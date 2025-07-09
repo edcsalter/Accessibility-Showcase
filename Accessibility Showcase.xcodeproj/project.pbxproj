@@ -29,9 +29,30 @@
 		33D1B9B52E1E9EE500DEE658 /* Accessibility ShowcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accessibility ShowcaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		33D1B9CC2E1E9F0C00DEE658 /* Exceptions for "Accessibility Showcase" folder in "Accessibility ShowcaseTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Dynamic Type Size/WebView.swift",
+			);
+			target = 33D1B9AA2E1E9EE500DEE658 /* Accessibility ShowcaseTests */;
+		};
+		33D1B9CD2E1E9F0C00DEE658 /* Exceptions for "Accessibility Showcase" folder in "Accessibility ShowcaseUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Dynamic Type Size/WebView.swift",
+			);
+			target = 33D1B9B42E1E9EE500DEE658 /* Accessibility ShowcaseUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		33D1B9A02E1E9EE300DEE658 /* Accessibility Showcase */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				33D1B9CC2E1E9F0C00DEE658 /* Exceptions for "Accessibility Showcase" folder in "Accessibility ShowcaseTests" target */,
+				33D1B9CD2E1E9F0C00DEE658 /* Exceptions for "Accessibility Showcase" folder in "Accessibility ShowcaseUITests" target */,
+			);
 			path = "Accessibility Showcase";
 			sourceTree = "<group>";
 		};
@@ -400,6 +421,7 @@
 				DEVELOPMENT_TEAM = 5V8D34KHHF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Accessibility-Showcase-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +450,7 @@
 				DEVELOPMENT_TEAM = 5V8D34KHHF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Accessibility-Showcase-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
